@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Simple PWA Home Page">
+  <meta name="theme-color" content="#3498db">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <!-- Add your own icon sizes -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512x512.png">
+
+  <!-- Bootstrap CSS (optional) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <title>Simple PWA Home Page</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class=" container-fluid mainbg_color">
+      <div class="box">
+        <img src="image/logo.png">
+        <h3>Loan Application</h3>
+        <p>Enter your 10-character PAN number for identity verification and loan processing.</p>
+        <div class="login_form">
+          <div class="mb-3">
+            <label for="firstName" class="form-label">PAN Card Number</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+          </div>
+          <button type="submit" class="btn info-success">Continue</button>
+        </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Include the main.js file -->
+  <script src="/main.js"></script>
+</body>
+</html>
